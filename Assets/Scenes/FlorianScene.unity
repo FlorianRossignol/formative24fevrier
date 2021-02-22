@@ -285,7 +285,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1995878460
+--- !u!1001 &437221409
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -298,11 +298,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 230619476644420528, guid: 8594b0f17816fc44c906e367ba903636, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.61
+      value: -6.790441
       objectReference: {fileID: 0}
     - target: {fileID: 230619476644420528, guid: 8594b0f17816fc44c906e367ba903636, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.12
+      value: -0.22354496
       objectReference: {fileID: 0}
     - target: {fileID: 230619476644420528, guid: 8594b0f17816fc44c906e367ba903636, type: 3}
       propertyPath: m_LocalPosition.z
@@ -342,7 +342,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8423770189431749695, guid: 8594b0f17816fc44c906e367ba903636, type: 3}
       propertyPath: m_Name
-      value: Cube
+      value: PlayerCharacter
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8594b0f17816fc44c906e367ba903636, type: 3}
