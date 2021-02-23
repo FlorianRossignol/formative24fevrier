@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5028513901903473310}
   - component: {fileID: 5028513901903473304}
   - component: {fileID: 5028513901903473307}
+  - component: {fileID: -3861646788038285722}
   m_Layer: 8
   m_Name: ballon
   m_TagString: Untagged
@@ -131,3 +132,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-3861646788038285722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5028513901903473308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9a7d7d6fc1e674391ff0e694502b58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
