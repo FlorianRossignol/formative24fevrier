@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -262931205445748475}
   - component: {fileID: 6563255821691392238}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: PlayerCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48,8 +48,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0014527738, y: 0.024386644}
-  m_Size: {x: 0.6133178, y: 1.6892452}
+  m_Offset: {x: -0.03341627, y: 0.045312643}
+  m_Size: {x: 3.1378393, y: 4.449202}
   m_Direction: 0
 --- !u!50 &8017207585418372893
 Rigidbody2D:
@@ -66,7 +66,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

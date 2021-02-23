@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5028513901903473310}
   - component: {fileID: 5028513901903473304}
   - component: {fileID: 5028513901903473307}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ballon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
