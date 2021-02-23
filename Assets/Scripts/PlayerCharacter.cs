@@ -49,13 +49,14 @@ public class PlayerCharacter : MonoBehaviour
                 if(Mathf.Abs(Input.GetAxis("Horizontal")) > DeadZone_)
                 {
                     ChangeState(State.WALKSIDE);
+                
                 }
               
-                if (Mathf.Abs(Input.GetAxis("Vertical")) > DeadZone_)
+                if (Mathf.Abs(Input.GetAxis("Vertical")) < -DeadZone_)
                 {
                     ChangeState(State.WALKUP);
                 }
-                if (Mathf.Abs(Input.GetAxis("Vertical")) < -DeadZone_)
+                if (Mathf.Abs(Input.GetAxis("Vertical")) > DeadZone_)
                 {
                     ChangeState(State.WALKDOWN);
                 }
@@ -64,6 +65,7 @@ public class PlayerCharacter : MonoBehaviour
                 if (Mathf.Abs(Input.GetAxis("Horizontal")) > DeadZone_)
                 {
                     ChangeState(State.WALKSIDE);
+                    
                 }
                
                 if ((Input.GetAxis("Vertical") > -DeadZone_ && Input.GetAxis("Vertical") < DeadZone_)
@@ -76,9 +78,10 @@ public class PlayerCharacter : MonoBehaviour
                 if (Mathf.Abs(Input.GetAxis("Horizontal")) > DeadZone_)
                 {
                     ChangeState(State.WALKSIDE);
+                    
                 }
        
-                if (Input.GetAxis("Vertical") > DeadZone_)
+                if (Input.GetAxis("Vertical") > -DeadZone_)
                 {
                     ChangeState(State.WALKUP);
                 }
