@@ -6,8 +6,8 @@ public class GoalMovement : MonoBehaviour
     public float speed;
     public Transform[] waypoints;
 
-    private Transform target;
-    private int destPoint = 0;
+    public Transform target;
+    public int destPoint = 0;
 
     // Start is called before the first frame update
     void Start()
